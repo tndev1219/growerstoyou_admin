@@ -1,0 +1,51 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "gty-admin-dev-20190709201234-authRole",
+			"UnauthRoleArn": "arn:aws:iam::580696210249:role/gty-admin-dev-20190709201234-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::580696210249:role/gty-admin-dev-20190709201234-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "gty-admin-dev-20190709201234-deployment",
+			"UnauthRoleName": "gty-admin-dev-20190709201234-unauthRole",
+			"StackName": "gty-admin-dev-20190709201234",
+			"StackId": "arn:aws:cloudformation:us-east-1:580696210249:stack/gty-admin-dev-20190709201234/743a2000-a23a-11e9-a24c-120371d9064c"
+		}
+	},
+	"auth": {
+		"gtyadmineffec9e6": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/gty-admin-dev-20190709201234-deployment/amplify-cfn-templates/auth/gtyadmineffec9e6-cloudformation-template.yml",
+				"logicalId": "authgtyadmineffec9e6"
+			},
+			"lastPushTimeStamp": "2019-07-09T11:57:42.056Z",
+			"output": {
+				"AppClientSecret": "12pi0ukm1tvflrlaauuq2q9ce479rh148e088ci5kj06fc43ura1",
+				"UserPoolId": "us-east-1_fQBfShs5D",
+				"AppClientIDWeb": "3klbc4esvd6rdq6b6k68g4vq78",
+				"AppClientID": "4kqin8o41b41k5i5r49mki7kph",
+				"IdentityPoolId": "us-east-1:ad2f4f37-219c-447f-8e46-254db790792a",
+				"IdentityPoolName": "gtyadmineffec9e6_identitypool_effec9e6__dev",
+				"UserPoolName": "gtyadmineffec9e6_userpool_effec9e6"
+			},
+			"lastPushDirHash": "3//aOgWD2X8/oyxozxRKiIJ/UiM="
+		}
+	},
+	"storage": {
+		"growertoyou": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/gty-admin-dev-20190709201234-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storagegrowertoyou"
+			},
+			"lastPushTimeStamp": "2019-07-09T11:57:42.056Z",
+			"output": {
+				"BucketName": "growertoyou-dev",
+				"Region": "us-east-1"
+			},
+			"lastPushDirHash": "Li4XFRgQpxOavubJjTqGwiyuPGE="
+		}
+	}
+}

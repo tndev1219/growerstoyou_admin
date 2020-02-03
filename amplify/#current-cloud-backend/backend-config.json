@@ -1,0 +1,14 @@
+{
+	"auth": {
+		"gtyadmineffec9e6": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"growertoyou": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
